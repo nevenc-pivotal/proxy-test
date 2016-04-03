@@ -1,0 +1,9 @@
+spring:
+  my:
+    proxy:
+      host: my.examples.cf
+      port: 8080
+      user: proxyuser
+      password: proxypassword
+      skip: localhost|127.*|[::1]
+
